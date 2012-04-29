@@ -2,6 +2,11 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include <QtSql>
+#include <QDataWidgetMapper>
+#include <QApplication>
+#include <QStringListModel>
+#include <QtDebug>
 
 namespace Ui {
     class Widget;
@@ -14,7 +19,13 @@ class Widget : public QWidget
 public:
     explicit Widget(QWidget *parent = 0);
     ~Widget();
+    void setupModel();
+    QSqlRelationalTableModel *model;
+    QItemSelectionModel *selectionModel;
+    QDataWidgetMapper *mapper;
+    QSqlDatabase db;
 
+    void setupDb();
 private:
     Ui::Widget *ui;
 

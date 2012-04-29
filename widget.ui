@@ -28,6 +28,9 @@
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
      <widget class="QWidget" name="page">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -129,7 +132,11 @@
         </layout>
        </item>
        <item>
-        <widget class="QListView" name="listView"/>
+        <widget class="QListView" name="listView">
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QPushButton" name="pushButton_5">
@@ -156,7 +163,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QListView" name="listView_2"/>
+        <widget class="QListView" name="listView_2">
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QPushButton" name="pushButton_6">
@@ -183,7 +194,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QListView" name="listView_3"/>
+        <widget class="QListView" name="listView_3">
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QPushButton" name="pushButton_7">
