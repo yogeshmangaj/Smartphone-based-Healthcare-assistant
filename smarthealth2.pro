@@ -18,8 +18,8 @@ HEADERS  += widget.h
 FORMS    += widget.ui
 
 CONFIG += mobility
-MOBILITY = 
 
+MOBILITY =
 symbian {
     TARGET.UID3 = 0xec8fe994
     # TARGET.CAPABILITY += 
@@ -28,6 +28,7 @@ symbian {
 }
 
 OTHER_FILES += \
+    health.db3 \
     qtc_packaging/debian_fremantle/rules \
     qtc_packaging/debian_fremantle/README \
     qtc_packaging/debian_fremantle/copyright \
@@ -35,7 +36,7 @@ OTHER_FILES += \
     qtc_packaging/debian_fremantle/compat \
     qtc_packaging/debian_fremantle/changelog
 
-RESOURCES +=
+
 
 
 
