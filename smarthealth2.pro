@@ -19,13 +19,8 @@ FORMS    += widget.ui
 
 CONFIG += mobility
 
-MOBILITY =
-symbian {
-    TARGET.UID3 = 0xec8fe994
-    # TARGET.CAPABILITY += 
-    TARGET.EPOCSTACKSIZE = 0x14000
-    TARGET.EPOCHEAPSIZE = 0x020000 0x800000
-}
+MOBILITY = messaging
+
 
 OTHER_FILES += \
     health.db3 \
