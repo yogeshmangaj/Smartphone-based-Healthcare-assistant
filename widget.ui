@@ -29,7 +29,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>2</number>
      </property>
      <widget class="QWidget" name="page_Homepage">
       <property name="sizePolicy">
@@ -90,7 +90,7 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>Alternative medecines</string>
+          <string>Alternative medicines</string>
          </property>
         </widget>
        </item>
@@ -104,36 +104,6 @@
        </sizepolicy>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_5">
-       <item>
-        <widget class="QLabel" name="label_2">
-         <property name="text">
-          <string>Symptoms</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <layout class="QHBoxLayout" name="horizontalLayout">
-         <property name="spacing">
-          <number>0</number>
-         </property>
-         <property name="sizeConstraint">
-          <enum>QLayout::SetNoConstraint</enum>
-         </property>
-         <property name="bottomMargin">
-          <number>14</number>
-         </property>
-         <item>
-          <widget class="QLineEdit" name="lineEdit"/>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pushButton_4">
-           <property name="text">
-            <string>Search</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
        <item>
         <widget class="QListView" name="listView"/>
        </item>
@@ -207,13 +177,6 @@
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_7">
        <item>
-        <widget class="QLabel" name="label_4">
-         <property name="text">
-          <string>Alternative medecines</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="QListView" name="listView_3"/>
        </item>
        <item>
@@ -239,13 +202,6 @@
      <widget class="QWidget" name="page_5_causes">
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
-        <widget class="QLabel" name="label_5">
-         <property name="text">
-          <string>Causes</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="QListView" name="listView_4"/>
        </item>
        <item>
@@ -270,13 +226,6 @@
      </widget>
      <widget class="QWidget" name="page_6_desc">
       <layout class="QVBoxLayout" name="verticalLayout_2">
-       <item>
-        <widget class="QLabel" name="label_6">
-         <property name="text">
-          <string>Description</string>
-         </property>
-        </widget>
-       </item>
        <item>
         <widget class="QTextBrowser" name="textBrowser"/>
        </item>
